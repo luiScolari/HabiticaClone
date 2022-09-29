@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@300&display=swap');
+
+.navbar {
+    width: 100%;
+    height: 6vh;
+    background-color: #432874;
+}
+
+.menus-collapse {
+    height: 6vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdownMenus {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    height: 6vh;
+    margin-left: 175px;
+    width: 650px;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cashCounters {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    margin-left: 100px;
+}
