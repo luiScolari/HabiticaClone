@@ -9,6 +9,7 @@
 .menus-collapse {
     height: 6vh;
     align-items: center;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
 }
@@ -30,7 +31,17 @@
 
 .cashCounters {
     display: flex;
-    justify-content: space-evenly;
-    width: 100px;
+    width: 150px;
     margin-left: 100px;
+}
+
+.item-with-icon {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.top-menu-icon {
+    width: 20px;
 }
