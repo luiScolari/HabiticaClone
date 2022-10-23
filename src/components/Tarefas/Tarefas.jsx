@@ -1,15 +1,15 @@
 import React from 'react';
-import './Tasks.css'
+import './Tarefas.css'
 import Diarias from '../Diarias/Diarias';
 import Habitos from '../Habitos/Habitos';
 
-const Tasks = ({habitos}) => {
+const Tarefas = ({habitos}) => {
     return (
-        <div className='Tasks'>
+        <div className='Tarefas'>
                 <Habitos habitos={habitos} />
                 <Diarias />
         </div>
     );
 }
 
-export default Tasks;
+export default Tarefas;

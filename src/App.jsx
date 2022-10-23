@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import ProfileMenu from './components/ProfileMenu/ProfileMenu';
-import Tasks from './components/Tasks/Tasks';
+import Tarefas from './components/Tarefas/Tarefas';
 
 function App() {
   const [habitos, setHabitos] = useState([{
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Navbar />
       <ProfileMenu />
-      <Tasks habitos={habitos} />
+      <Tarefas habitos={habitos} />
     </div>
   );
 }
