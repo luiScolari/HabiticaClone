@@ -5,11 +5,13 @@ import './Habitos.css'
 
 const Habitos = ({ habitos }) => {
     return (
-        <div className='Habitos'>
+        <div className='habitosContainer'>
+            <div className='Habitos'>
             {habitos.map((habito) => (
                 <Habito habito={habito} />
             ))
             }
+            </div>
         </div>
     );
 }
