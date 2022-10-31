@@ -1,4 +1,7 @@
 .Tarefas {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
+    margin: 0vw 2vw;
+    margin-top: 10vh;
 }

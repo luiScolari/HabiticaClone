@@ -7,7 +7,7 @@ import Tarefas from './components/Tarefas/Tarefas';
 function App() {
   const [habitos, setHabitos] = useState([{
     titulo: 'habito1',
-    obs: 'obs1'
+    obs: 'mentum, efficitur eu mi'
   },
   {
     titulo: 'habito2',

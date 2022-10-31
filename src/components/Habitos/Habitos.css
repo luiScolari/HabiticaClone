@@ -1,0 +1,7 @@
+.Habitos {
+    background-color: #212425;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22.5vw;
+}
